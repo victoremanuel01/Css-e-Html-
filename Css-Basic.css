@@ -1,0 +1,43 @@
+p{
+background-color: pink; /*permite atribuir uma cor para o fundo do elemento*/
+text-align: end; 
+font-family: Arial, Helvetica, sans-serif;  /*permite definir uma fonte expecifica de alguma familia*/
+font-size: 100px; /*permite definir o tamanho da fonte*/
+line-height: 3;
+}
+
+.div1{
+  border-style: solid ;
+  text-align:  center; /*permite alinhar um texto*/
+  border: 5px solid; /*permite criar uma borda para um bloco*/
+  border-radius: 30px; /*permite criar um raio de circuferencia para a border*/
+  padding: 10px; /*permite definir um preenchimento para o bloco*/
+  margin: 10px; /*permite definir uma margem entre a pagina e o bloco*/
+}
+
+.menu{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: powderblue;
+}
+
+.menu a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.menu a:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.flex{
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
